@@ -13,6 +13,7 @@
 		4160D64226F8543200BFC029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4160D64026F8543200BFC029 /* Main.storyboard */; };
 		4160D64426F8543400BFC029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4160D64326F8543400BFC029 /* Assets.xcassets */; };
 		4160D64726F8543500BFC029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4160D64526F8543500BFC029 /* LaunchScreen.storyboard */; };
+		4160D65026F8548100BFC029 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4160D65226F8548100BFC029 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4160D64326F8543400BFC029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4160D64626F8543500BFC029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4160D64826F8543500BFC029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4160D65126F8548100BFC029 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				4160D63E26F8543200BFC029 /* ViewController.swift */,
 				4160D64026F8543200BFC029 /* Main.storyboard */,
 				4160D64326F8543400BFC029 /* Assets.xcassets */,
+				4160D65226F8548100BFC029 /* Localizable.strings */,
 				4160D64526F8543500BFC029 /* LaunchScreen.storyboard */,
 				4160D64826F8543500BFC029 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4160D64726F8543500BFC029 /* LaunchScreen.storyboard in Resources */,
+				4160D65026F8548100BFC029 /* Localizable.strings in Resources */,
 				4160D64426F8543400BFC029 /* Assets.xcassets in Resources */,
 				4160D64226F8543200BFC029 /* Main.storyboard in Resources */,
 			);
@@ -160,6 +164,14 @@
 				4160D64626F8543500BFC029 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4160D65226F8548100BFC029 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4160D65126F8548100BFC029 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
